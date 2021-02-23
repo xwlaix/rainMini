@@ -1,0 +1,5 @@
+<view class="content">
+    <canvas canvasId="bgCanvas" class="canvasII"></canvas>
+    <canvas canvasId="canvasI" class="canvasI" style="{{isRotate?'transform:rotate('+isRotate+'deg)':''}}"></canvas>
+    <image catchtap="start" class="start" mode="widthFix" src="/images/canvas_button_go_unclick.png"></image>
+</view>

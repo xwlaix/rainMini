@@ -1,0 +1,38 @@
+.content {
+    width: 90%;
+    height: 300px;
+    background-color: #666;
+    margin: 50px auto 0;
+    position: relative
+}
+
+.canvasI {
+    width: 250px;
+    height: 250px;
+    transition: all 3s ease
+}
+
+.canvasI,
+.canvasII {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.canvasII {
+    width: 300px;
+    height: 300px
+}
+
+.start {
+    position: absolute;
+    width: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
