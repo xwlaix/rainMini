@@ -1,94 +1,90 @@
-body {
+page {
     width: 100%;
-    background-color: #efefef
+    background-color: #efefef;
 }
 
 .container {
     width: 100%;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .modules_box {
-    display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: flex-start;
     justify-content: flex-start;
-    -webkit-align-items: center;
     align-items: center;
     width: calc(100% - 20px);
     height: 60px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 6px;
     border: 1px solid transparent;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .modules_icon_box {
     height: 60px;
-    width: 60px
+    width: 60px;
 }
 
 .modules_icon {
     width: 20px;
     height: 20px;
-    margin: 20px
+    margin: 20px;
 }
 
 .modules_title_box {
-    -webkit-justify-content: flex-start;
+    display: flex;
     justify-content: flex-start;
+    align-items: center;
+    height: 60px;
     line-height: 60px;
     width: calc(100% - 120px);
     font-size: 14px;
-    color: #7a7a7a
-}
-
-.modules_switch_box,
-.modules_title_box {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    height: 60px
+    color: #7a7a7a;
 }
 
 .modules_switch_box {
+    display: flex;
+    height: 60px;
     width: 40px;
-    -webkit-justify-content: center;
-    justify-content: center
+    align-items: center;
+    justify-content: center;
 }
 
 .navigator-hover {
     border: 1px solid #007aff;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
-.modules_button,
+.modules_button {
+    width: 40px!important;
+    height: 20px!important;
+}
+
 .wx-switch-input {
-    width: 40px !important;
-    height: 20px !important
+    width: 40px!important;
+    height: 20px!important;
 }
 
 .wx-switch-input::before {
-    width: 38px !important;
-    height: 18px !important
+    width: 38px!important;
+    height: 18px!important;
 }
 
 .wx-switch-input::after {
-    width: 18px !important;
-    height: 18px !important
+    width: 18px!important;
+    height: 18px!important;
 }
 
 .gap {
-    height: 10px
+    height: 10px;
 }
 
 .ad_container {
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 10px;
     padding: 6px;
-    border-radius: 6px
+    border-radius: 6px;
 }

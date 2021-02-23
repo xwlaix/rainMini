@@ -8,4 +8,7 @@
             </view>
         </navigator>
     </view>
+    <view class="ad_container">
+        <ad adTheme="white" adType="video" unitId="adunit-753d0b1eead76474"></ad>
+    </view>
 </view>

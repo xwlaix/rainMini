@@ -1,7 +1,7 @@
 .my-dialog {
     opacity: 1;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .my-dialog .my-mask {
@@ -10,8 +10,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .6);
-    z-index: 1000
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
 }
 
 .my-dialog .my-container {
@@ -19,73 +19,71 @@
     width: 96%;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     background-color: #fff;
     border-radius: 10px;
-    z-index: 5000
+    z-index: 5000;
 }
 
 .my-dialog .my-container .title {
     display: inline-block;
     width: 100%;
-    margin: 10px 0 0;
-    height: 25px;
-    line-height: 25px;
+    margin: 20rpx 0 0 0;
+    height: 50rpx;
+    line-height: 50rpx;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
-    color: #303133
+    color: #303133;
 }
 
 .my-dialog .my-container .bottom {
     bottom: 0;
     width: 100%;
-    -webkit-align-items: center;
     align-items: center;
-    height: 44px;
-    line-height: 44px;
+    height: 88rpx;
+    line-height: 88rpx;
     font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 5px
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
 }
 
 .my-dialog .my-container .bottom .cancel {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .ad_container {
-    background-color: #ddd;
+    background-color: #dddddd;
     border-radius: 6px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .cat_container {
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: column;
     flex-direction: column;
-    -webkit-align-items: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
 }
 
 .topcat {
-    width: 50px;
-    margin-top: 15px
+    width: 100rpx;
+    margin-top: 30rpx;
 }
 
 .content {
-    margin-bottom: 10px;
-    padding: 5px
+    margin-bottom: 20rpx;
+    padding: 10rpx;
 }
 
 .text {
-    padding: 3px 20px;
-    background-color: #fff;
-    border: 1px solid #000;
-    border-radius: 20px;
-    min-width: 200px
+    padding-top: 6rpx;
+    padding-bottom: 6rpx;
+    padding-left: 40rpx;
+    padding-right: 40rpx;
+    background-color: #ffffff;
+    border: 2rpx solid #000000;
+    border-radius: 40rpx;
+    min-width: 200px;
 }

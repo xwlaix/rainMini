@@ -144,9 +144,11 @@ Page({
         wx.setStorageSync("myJuedin", s), wx.setStorageSync("all", i);
     },
     onShareAppMessage: function() {
-        return mta.Event.stat("share", {
+        mta.Event.stat("share", {
             time: "1"
-        }), Math.floor(4 * Math.random() + 1), {
+        });
+        Math.floor(4 * Math.random() + 1);
+        return {
             title: t.isNull(a.globalData.shareTitle) ? "一起来玩'" + a.globalData.title + "'吧" : a.globalData.shareTitle,
             path: "/pages/index/index",
             success: function(t) {

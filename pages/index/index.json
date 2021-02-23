@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "来做决定啦",
+    "navigationBarTitleText": "决定喵",
     "backgroundColor": "#ffffff",
     "usingComponents": {
         "result": "/components/result/result",

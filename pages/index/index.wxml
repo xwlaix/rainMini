@@ -16,6 +16,11 @@
          分享到朋友圈
       </button>
     </view>
+    <view class="bottom_ad">
+        <view class="bottom_ad_container">
+            <ad adTheme="white" adType="video" unitId="adunit-1b693b94021a57b7"></ad>
+        </view>
+    </view>
     <result bind:cancel="handleCancelDialog" bind:confirm="handleConfirmDialog" cancelText="取消" confirmText="确定" content="{{s_awards}}" id="result" result="{{s_awards}}" title="请确认资产项目信息"></result>
     <add-tips></add-tips>
 </view>

@@ -22,7 +22,7 @@ var n = {
         colorArr: [ "#83ecc6", "#ec807a", "#9beaea", "#66BB6A", "#f8e4ad", "#5dcbc7", "#e4d571", "#7ecad8", "#d2718c", "#73cac3", "#6cb1d5", "#864284", "#efb5a4", "#ec81a6", "#e6ada1", "#f8e4ad", "#83ecc6", "#ec807a", "#9beaea", "#f8e4ad", "#5dcbc7", "#e4d571", "#7ecad8", "#d2718c", "#73cac3", "#6cb1d5", "#864284", "#efb5a4", "#ec81a6", "#e6ada1", "#f8e4ad" ],
         fontArr: [ "italic", "oblique", "normal" ],
         sizeArr: [ 12, 14, 16, 18, 20, 22, 24, 26, 28 ],
-        eweimaUrl: "../../images/erweima1.jpg",
+        eweimaUrl: "../../images/erweima.jpg",
         shengchengUrl: "",
         saveFrameFlag: !1
     },
@@ -126,9 +126,11 @@ var n = {
         }, 2e3);
     },
     onShareAppMessage: function() {
-        return mta.Event.stat("share", {
+        mta.Event.stat("share", {
             time: "1"
-        }), Math.floor(4 * Math.random() + 1), {
+        });
+        Math.floor(4 * Math.random() + 1);
+        return {
             title: a.isNull(e.globalData.shareTitle) ? "一起来玩'" + e.globalData.title + "'吧" : e.globalData.shareTitle,
             path: "/pages/index/index",
             success: function(a) {
