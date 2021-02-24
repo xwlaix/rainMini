@@ -1,40 +1,49 @@
 {
   "description": "项目配置文件",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
   "packOptions": {
     "ignore": []
   },
   "setting": {
-    "bundle": false,
-    "userConfirmedBundleSwitch": false,
     "urlCheck": true,
     "scopeDataCheck": false,
-    "coverView": true,
     "es6": true,
+    "enhance": true,
     "postcss": true,
     "compileHotReLoad": false,
     "preloadBackgroundData": false,
     "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
     "autoAudits": false,
-    "newFeature": false,
+    "showShadowRootInWxmlPanel": true,
     "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "useIsolateContext": true,
-    "nodeModules": false,
-    "enhance": false,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
     "useApiHostProcess": false,
-    "showShadowRootInWxmlPanel": true,
-    "packNpmManually": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
     "enableEngineNative": false,
+    "bundle": false,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.15.0",
-  "appid": "wxd52c182ab8626eb4",
+  "appid": "wx063517b3e3bb14a9",
   "projectname": "rainMini",
   "debugOptions": {
     "hidedInDevtools": []
@@ -45,6 +54,7 @@
     "servePath": ""
   },
   "isGameTourist": false,
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []

@@ -1,9 +1,0 @@
-{
-    "navigationBarTitleText": "决定喵",
-    "backgroundColor": "#ffffff",
-    "usingComponents": {
-        "result": "/components/result/result",
-        "zhuanpan": "/components/zhuanpan/zhuanpan",
-        "add-tips": "/components/weplug-add-tips/index"
-    }
-}

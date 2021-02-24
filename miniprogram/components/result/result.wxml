@@ -1,0 +1,16 @@
+<view catchtouchmove="true" class="my-dialog" hidden="{{!showDialog}}">
+    <view class="my-mask"></view>
+    <view class="my-container">
+        <view class="cat_container">
+            <image class="topcat" mode="widthFix" src="../../images/cat.png"></image>
+            <view class="content">
+                <text class="text">{{result}}</text>
+            </view>
+        </view>
+        <view class="bottom">
+            <image bindtap="hide" class="cancel" mode="aspectFit" src="../../images/close.png">
+        关闭
+      </image>
+        </view>
+    </view>
+</view>

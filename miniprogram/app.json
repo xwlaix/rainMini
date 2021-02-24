@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/set/set",
+    "pages/edit/edit",
+    "pages/ceshi/ceshi",
+    "pages/discover/discover",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FAE8B6"
+  },
+  "tabBar": {
+    "color": "#A9A9A9",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "转盘",
+        "iconPath": "images/icon_tab_index_64.png",
+        "selectedIconPath": "images/icon_tab_index_select_64.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "决定",
+        "iconPath": "images/icon_tab_list_64.png",
+        "selectedIconPath": "images/icon_tab_list_select_64.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "设置",
+        "iconPath": "images/icon_tab_set_64.png",
+        "selectedIconPath": "images/icon_tab_set_select_64.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx6d38f58cf9444e51",
+    "wx886ce37e0790c2e7"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
