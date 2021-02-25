@@ -1,5 +1,5 @@
 App({
-    onLaunch: function(e) {
+    onLaunch: async function(e) {
         this.globalData.scene = e.scene, 1011 != e.scene && 1012 != e.scene && 1013 != e.scene || (this.globalData.fromCodeFlag = !0), 
         console.log("=============app.onlaunch===============");
         var o = wx.getStorageSync("logs") || [];
@@ -12,10 +12,31 @@ App({
               //   env 参数决定接下来小程序发起的云开发调用（wx.cloud.xxx）会默认请求到哪个云环境的资源
               //   此处请填入环境 ID, 环境 ID 可打开云控制台查看
               //   如不填则使用默认环境（第一个创建的环境）
-              // env: 'my-env-id',
+              env: 'rain-8gz4veqh7583d611',
               traceUser: true,
             })
           }
+          const result = await wx.cloud.callFunction({
+            name: "home",
+            data: {
+              action: "homeDecision",
+              data:{
+                  hot:true, 
+                  openid:''
+              }
+            },
+          });
+        //   const myResult = await wx.cloud.callFunction({
+        //     name: "home",
+        //     data: {
+        //       action: "homeDecision",
+        //       data:{
+        //           hot:false, 
+        //       }
+        //     },
+        //   });
+        //   wx.setStorageSync("my", myResult.result.data)
+          wx.setStorageSync("all", result.result.data)
     },
     onHide: function() {
         wx.pauseBackgroundAudio();

@@ -4,9 +4,9 @@
     </view>
     <view style="background-color:#ffffff;color:#555555;width:80%;margin:0 auto;text-align:center;font-size:34rpx;margin-bottom:10rpx;border-radius:20px;padding:5px;">{{awardsConfig.option}}</view>
     <view style="width:100%;margin:0 auto;text-align:center;margin-bottom:44rpx;color:#000000;font-size:30rpx;margin-top:50rpx;height:50rpx;">{{s_awards}}</view>
-    <zhuanpan awardsConfig="{{awardsConfig}}" bind:myAwards="getAwards" bind:myData="getData" bind:startZhuan="startZhuan" class="zhuanpan" fastJuedin="{{fastJuedin}}" id="zhuanpan" musicflg="{{musicflg}}" repeat="{{repeat}}" size="{{size}}" zhuanpanArr="{{xiaojuedingArr}}"></zhuanpan>
+    <zhuanpan   awardsConfig="{{awardsConfig}}" bind:myAwards="getAwards" bind:myData="getData" bind:startZhuan="startZhuan" class="zhuanpan" fastJuedin="{{fastJuedin}}" id="zhuanpan" musicflg="{{musicflg}}" repeat="{{repeat}}" size="{{size}}" zhuanpanArr="{{xiaojuedingArr}}"></zhuanpan>
     <view style="margin-top:60rpx"></view>
-    <view bindtap="xiaojueding" class="juedinoption" data-idx="{{index}}" wx:if="{{index<3&&share}}" wx:for="{{xiaojuedingArr}}" wx:key="key">{{item.option}}
+    <view bindtap="xiaojueding" class="juedinoption" data-idx="{{item}}" wx:if="{{index<3&&share}}" wx:for="{{xiaojuedingShowArr}}" wx:key="key">{{item.option}}
    </view>
     <view class="share" wx:if="{{!share}}">
         <button class="index__share" openType="share">
