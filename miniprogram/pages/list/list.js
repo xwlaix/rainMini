@@ -74,7 +74,9 @@ Page({
     },
     personalQToControl: function(t) {
         var e, a = this, i = t.currentTarget.dataset.index, n = a.data.myxiaojueding;
+
         for (var o in n) o == i ? (e = void 0 == n[o].num1 ? i : void 0, n[o].num1 = e) : n[o].num1 = void 0;
+        console.log(n)
         a.setData({
             myxiaojueding: n
         });

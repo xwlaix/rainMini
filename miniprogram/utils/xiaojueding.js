@@ -8,29 +8,29 @@ module.exports = [ {
         name: "今天穿什么颜色的内裤",
         color: "#ec807a"
     }, {
-        name: "第一次啪啪啪几岁",
+        name: "你最喜欢的食物",
         color: "#9beaea"
     }, {
         name: "做过最疯狂的事是什么",
         color: "#f8e4ad"
     }, {
-        name: "单身的感觉好吗",
-        color: "#5dcbc7"
-    }, {
-        name: "你被绿过吗",
+        name: "曾经最被感动的事是什么",
         color: "#e4d571"
     }, {
-        name: "打过几次分手炮",
+        name: "你最讨厌自己身上哪点",
         color: "#7ecad8"
     }, {
-        name: "上一次啪啪啪是什么时候",
+        name: "描述一下自己有哪些神操作",
         color: "#d2718c"
     }, {
-        name: "你出轨过么",
+        name: "你觉得自己重色轻友吗",
         color: "#73cac3"
     }, {
         name: "多久没看书了",
         color: "#6cb1d5"
+    } , {
+        name: "你最郁闷的外号是",
+        color: "#864284"
     } ]
 }, {
     id: 1,
@@ -75,9 +75,6 @@ module.exports = [ {
     }, {
         name: "香奈儿包包",
         color: "#5dcbc7"
-    }, {
-        name: "验孕棒",
-        color: "#e4d571"
     }, {
         name: "有没有男票心里没点数",
         color: "#7ecad8"
@@ -258,31 +255,40 @@ module.exports = [ {
     } ]
 }, {
     id: 8,
-    option: "十一国庆去哪玩",
+    option: "最想去哪里旅游",
     awards: [ {
-        name: "凤凰古城",
+        name: "新疆",
         color: "#83ecc6"
     }, {
-        name: "张家界",
+        name: " 内蒙古",
         color: "#ec807a"
     }, {
-        name: "乌镇",
+        name: "黄山",
         color: "#9beaea"
     }, {
-        name: "鼓浪屿",
+        name: "俄罗斯",
         color: "#f8e4ad"
     }, {
-        name: "千岛湖",
+        name: "挪威",
         color: "#5dcbc7"
     }, {
-        name: "稻城",
+        name: "芬兰",
         color: "#e4d571"
     }, {
-        name: "大理",
+        name: "法国",
         color: "#7ecad8"
     }, {
-        name: "丽江",
+        name: "意大利",
         color: "#d2718c"
+    } , {
+        name: "英国",
+        color: "#73cac3"
+    }, {
+        name: "土耳其",
+        color: "#6cb1d5"
+    }, {
+        name: "迪拜",
+        color: "#864284"
     } ]
 }, {
     id: 9,
