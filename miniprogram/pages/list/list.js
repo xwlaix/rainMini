@@ -1,9 +1,9 @@
-var t = require("../../utils/util.js"), e = wx.getStorageSync("all"),my = wx.getStorageSync("my"), a = getApp();
+var t = require("../../utils/util.js"), e = require("../../utils/xiaojueding.js"), a = getApp();
 
 Page({
     data: {
         xiaojueding: e,
-        myxiaojueding: my,
+        myxiaojueding: [],
         tab_index: 1
     },
     officialQToKeep: function(e) {
